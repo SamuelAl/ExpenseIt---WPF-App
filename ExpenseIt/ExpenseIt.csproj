@@ -55,7 +55,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Page Include="ExpenseIt.xaml">
+    <Page Include="ExpenseItHome.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -71,8 +71,8 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="ExpenseIt.xaml.cs">
-      <DependentUpon>ExpenseIt.xaml</DependentUpon>
+    <Compile Include="ExpenseItHome.xaml.cs">
+      <DependentUpon>ExpenseItHome.xaml</DependentUpon>
     </Compile>
     <Compile Include="ExpenseReportPage.xaml.cs">
       <DependentUpon>ExpenseReportPage.xaml</DependentUpon>
@@ -107,6 +107,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="watermark.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

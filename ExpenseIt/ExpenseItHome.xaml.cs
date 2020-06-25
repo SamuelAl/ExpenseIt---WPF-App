@@ -16,11 +16,11 @@ using System.Windows.Shapes;
 namespace ExpenseIt
 {
     /// <summary>
-    /// Interaction logic for ExpenseIt.xaml
+    /// Interaction logic for ExpenseItHome.xaml
     /// </summary>
-    public partial class ExpenseIt : Page
+    public partial class ExpenseItHome : Page
     {
-        public ExpenseIt()
+        public ExpenseItHome()
         {
             InitializeComponent();
         }
